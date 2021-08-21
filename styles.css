@@ -1,0 +1,55 @@
+/* Centering the content and adding background image */ 
+body {
+  background: url('Images/Cloud.jpg') center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+#header {
+  background: linear-gradient(#fff, rgba(67, 169, 228, 0.9));
+  background: -webkit-linear-gradient(#fff, rgba(67, 169, 228, 0.9));
+  background: -moz-linear-gradient(#fff, rgba(67, 169, 228, 0.9));
+  background: -o-linear-gradient(#fff, rgba(67, 169, 228, 0.9));
+  background: -ms-linear-gradient(#fff, rgba(67, 169, 228, 0.9));
+  height: 80px;
+  width: 500px;
+  margin: 10px auto;
+  font-size: 3em;
+  color: white;
+  line-height: 80px;
+}
+
+.input-container {
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* color, line-thickness, slider */
+.input {
+  height: 30px;
+  font-size: 1.3em;
+}
+
+#thickness-input {
+  position: relative;
+}
+
+#circle {
+  border-radius: 50%;
+  height: 3px;
+  width: 3px;
+  background-color: black;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#slider {
+  margin: 10px auto;
+}

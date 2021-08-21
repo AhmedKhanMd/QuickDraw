@@ -1,11 +1,48 @@
 <!DOCTYPE html>
+
 <html lang = "en">
+
   <head>
     <meta charset = "utf-8">
     <meta name = "viewport" content = "initial-scale = 1.0, user-scalable = yes, width = device-width">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <title> Draw It </title>
   </head>
+ 
   <body>
-    <h1> Hello, World! </h1>
+    
+    <div id = "header">Drawing App </div>
+      
+      <div class = "input-container">
+
+        <div class = "input" id = "color-input">
+
+          <input type="color" list id = "paintcolor">
+
+        </div>
+
+        <div class = "input" id = "thickness-input">
+          
+          <div id="circle">
+
+          </div>
+        
+        </div>
+
+        <div class = "input">
+
+            <div id="slider"></div>
+        
+        </div>
+      
+      </div>
+    
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src = "script.js"></script>
   </body>
+
 </html>
