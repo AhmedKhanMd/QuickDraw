@@ -30,7 +30,7 @@ With Quickdraw you can draw things, erase if you did something wrong, save your 
 - Reset
 - Save
 - color-change
-- color-thickness
+- line-thickness
 
 ## Website link
 https://ahmedkhanmd.github.io/QuickDraw/
