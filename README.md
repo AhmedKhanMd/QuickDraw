@@ -7,7 +7,6 @@ An app to bring out your creativity.
 * [Features](#features)
 * [Website link](#website-link)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [Contact](#contact)
 
